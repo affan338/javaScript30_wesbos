@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    transition: all 1s ease-in-out;
+}
+
+p:nth-child(odd) img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p:nth-child(even) img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p:nth-child(odd) .slide-in {
+    visibility: hidden;
+    transform: translateX(40%);
+}
+
+p:nth-child(even) .slide-in {
+    visibility: hidden;
+    transform: translateX(-40%);
+}
+
+.active {
+    visibility: visible;
+    transform: translateX(0);
+}

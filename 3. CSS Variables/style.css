@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 25, 75);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px;
+    color: white;
+    width: 80%;
+}
+
+.heading {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.line-2 {
+    color: yellow;
+}
+
+.variables {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.var-name {
+    margin: 20px 20px;
+}
+
+.prop-name {
+    font-size: 1.3rem;
+    margin: 10px 0px;
+}
+
+.value {
+    border: 3px solid white;
+    padding: 5px 5px;
+}
+
+.image {
+    width: 50%;
+    margin-top: 20px;
+    padding: 0px;
+    background-color: yellow;
+}

@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1596970915676-3fe662250dc7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) green;
+    background-size: cover;
+}
+
+.clock-border {
+    width: 220px;
+    height: 220px;
+    border: 10px solid white;
+    border-radius: 100%;
+    margin: 200px auto;
+    padding: 4px;
+    position: relative;
+}
+
+.hand {
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: right;
+}
+
+.hour-hand {
+    width: 30%;
+    border: 3px solid yellow;
+    left: 22%;
+}
+
+.min-hand {
+    width: 40%;
+    border: 3px solid white;
+    left: 12%;
+}
+
+.sec-hand {
+    width: 50%;
+    border: 3px solid red;
+}
